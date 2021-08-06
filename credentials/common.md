@@ -1,6 +1,6 @@
-[comment]: <> (_[proof]&#40;#_proof&#41;_)
+_[proof](#_proof)_
 
-#proof
+# proof
 proof contains information that is required for verification of credential.
 supported type for Iden3Credentials: _Iden3SparseMerkleTreeProof_
 
