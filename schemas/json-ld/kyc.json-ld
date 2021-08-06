@@ -11,7 +11,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "verified": {
           "@id": "kyc-vocab:age",
@@ -26,7 +26,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "age": {
           "@id": "kyc-vocab:age",
@@ -41,7 +41,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "residence": {
           "@id": "kyc-vocab:residence",
