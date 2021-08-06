@@ -1,0 +1,53 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "KYCVerificationCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCVerificationCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "verified": {
+          "@id": "kyc-vocab:age",
+          "@type": "xds:boolean"
+        }
+      }
+    },
+    "KYCAgeCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCAgeCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "age": {
+          "@id": "kyc-vocab:age",
+          "@type": "xds:integer"
+        }
+      }
+    },
+    "KYCResidenceCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCResidenceCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/main/credentials/kyc.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "residence": {
+          "@id": "kyc-vocab:residence",
+          "@type": "xds:integer"
+        }
+      }
+    }
+  }]
+}

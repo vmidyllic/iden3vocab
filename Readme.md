@@ -1,0 +1,1 @@
+Vocabulary and schemas for Iden3 Credentials
