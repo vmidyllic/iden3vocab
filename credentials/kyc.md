@@ -8,10 +8,10 @@ age represents person age as integer value
 ```
 # residence
 
-residence is country code (integer)
+countryCode is numeric code (integer)
 
 ```
-  "residence": 54
+  "countryCode": 804
 ```
 
 # verified

@@ -34,8 +34,8 @@
         }
       }
     },
-    "KYCResidenceCredential": {
-      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCResidenceCredential",
+    "CountryOfResidenceCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#CountryOfResidenceCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -43,7 +43,7 @@
         "type": "@type",
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "residence": {
+        "countryCode": {
           "@id": "kyc-vocab:residence",
           "@type": "xds:integer"
         }
