@@ -14,7 +14,7 @@
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "verified": {
-          "@id": "kyc-vocab:age",
+          "@id": "kyc-vocab:verified",
           "@type": "xds:boolean"
         }
       }
@@ -44,7 +44,7 @@
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "countryCode": {
-          "@id": "kyc-vocab:residence",
+          "@id": "kyc-vocab:countryCode",
           "@type": "xds:integer"
         }
       }

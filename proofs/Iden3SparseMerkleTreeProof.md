@@ -58,3 +58,12 @@ index part of node_aux
 # h_value
 
 value part of node_aux
+
+
+# creator 
+
+Issue Identifier
+
+# created 
+
+Time in Unix when signature has been created

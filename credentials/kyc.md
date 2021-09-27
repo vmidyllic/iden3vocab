@@ -6,7 +6,7 @@ age represents person age as integer value
 ```
   "age": 18
 ```
-# residence
+# countryCode
 
 countryCode is numeric code (integer)
 
