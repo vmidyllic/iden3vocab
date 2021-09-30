@@ -34,9 +34,12 @@
                 "@vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
            },
           "@id": "kyc-vocab:age",
-          "@type": "xsd:integer"
+          "serialization": {
+             "@value": "2010-05-29T14:17:39+02:00",
+             "@type": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
+            }
+          }
         }
-      }
     },
     "CountryOfResidenceCredential": {
       "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#CountryOfResidenceCredential",
