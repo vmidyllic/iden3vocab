@@ -31,7 +31,7 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "Index": "iden3-vocab:index",
         "Value": "iden3-vocab:value",
-        "serialization": "iden3-vocab:serialization"
+        "serialization": "iden3-vocab:serialization",
         "age": {
           "@id": "kyc-vocab:age",
           "@type": "xsd:integer",
