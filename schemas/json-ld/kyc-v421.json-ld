@@ -38,8 +38,7 @@
                  "index": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#IndexField"
            },
           "@id": "kyc-vocab:age",
-          "@type": "xsd:integer",
-          "serialization": "index"
+          "@type": "xsd:integer"
           }
         }
     },
