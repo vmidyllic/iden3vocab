@@ -38,8 +38,7 @@
             "@type": "xsd:string"
           },
           "data": {
-            "@id": "serialization-vocab:data",
-            "@type": "@id"
+            "@id": "serialization-vocab:data"
           }
         }
       }
