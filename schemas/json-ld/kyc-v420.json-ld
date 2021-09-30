@@ -31,13 +31,15 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "age": {
            "@context":{
-                "@vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
+                 "serialization": {
+                         "@id": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#serialization",
+                         "@type": "@vocab"
+                  },
+                 "index": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#IndexField"
            },
           "@id": "kyc-vocab:age",
-          "serialization": {
-             "@value": "2010-05-29T14:17:39+02:00",
-             "@type": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
-            }
+          "@type": "xsd:integer",
+          "serialization": "index"
           }
         }
     },
