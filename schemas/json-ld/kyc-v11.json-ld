@@ -32,9 +32,9 @@
 
         "age": {
            "@context":{
-                "Index": "iden3-vocab:index",
-                "Value": "iden3-vocab:value",
-               "serialization": "iden3-vocab:serialization"
+                "Index": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#index",
+                "Value": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#value",
+                "serialization": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#serialization"
            }
           "@id": "kyc-vocab:age",
           "@type": "xsd:integer",
