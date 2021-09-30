@@ -34,8 +34,7 @@
         "serialization": "iden3-vocab:serialization",
         "age": {
           "@id": "kyc-vocab:age",
-          "@type": "xsd:integer",
-          "serialization": "Index"
+          "@type": "xsd:integer"
         }
       }
     },
