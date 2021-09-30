@@ -34,7 +34,8 @@
                 "@vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
            },
           "@id": "kyc-vocab:age",
-          "@type": "xsd:integer"
+          "@type": "xsd:integer",
+          "serialization":"@vocab:index"
         }
       }
     },
