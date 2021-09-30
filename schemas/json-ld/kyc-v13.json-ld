@@ -29,7 +29,6 @@
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
         "iden3-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-
         "age": {
            "@context":{
                 "Index": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#index",
@@ -37,8 +36,7 @@
                 "serialization": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#serialization"
            },
           "@id": "kyc-vocab:age",
-          "@type": "xsd:integer",
-          "serialization":"Index"
+          "@type": "Index"
         }
       }
     },
