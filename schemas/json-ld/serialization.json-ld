@@ -1,26 +1,48 @@
 {
-  "@context": [{
-    "@version": 1.1,
-    "@protected": true,
-    "id": "@id",
-    "type": "@type",
-    "IndexField": {
-      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#IndexField",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type"
-      }
-    },
-    "ValueField": {
-      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#ValueField",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-         "type": "@type"
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "Index": {
+        "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#Index",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data",
+            "@type": "@id"
+          }
+        }
+      },
+      "Value": {
+        "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/serialization.json-ld#Value",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data",
+            "@type": "@id"
+          }
+        }
       }
     }
-  }]
+  ]
 }

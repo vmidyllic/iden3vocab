@@ -12,10 +12,10 @@
         "id": "@id",
         "type": "@type",
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "serialization-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/serialization.md#",
         "verified": {
           "@id": "kyc-vocab:verified",
-          "@type": "xds:boolean"
+          "@type": "serialization:Index"
         }
       }
     },
@@ -27,10 +27,10 @@
         "id": "@id",
         "type": "@type",
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "serialization-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/serialization.md#",
         "age": {
           "@id": "kyc-vocab:age",
-          "@type": "xds:integer"
+          "@type": "serialization:Index"
         }
       }
     },
@@ -42,10 +42,10 @@
         "id": "@id",
         "type": "@type",
         "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "serialization-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/serialization.md#",
         "countryCode": {
           "@id": "kyc-vocab:countryCode",
-          "@type": "xds:integer"
+          "@type": "serialization:Value"
         }
       }
     }
