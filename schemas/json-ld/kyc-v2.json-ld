@@ -1,0 +1,60 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "KYCVerificationCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCVerificationCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "verified": {
+          "@id": "kyc-vocab:verified",
+          "@type": "xds:boolean"
+        }
+      }
+    },
+    "KYCAgeCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#KYCAgeCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
+        "iden3-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@context": {
+            "Index": "iden3vocab:index",
+            "Value": "iden3vocab:value",
+            "serialization": "iden3vocab:serialization"
+        },
+        "age": {
+          "@id": "kyc-vocab:age",
+          "@type": "xsd:integer",
+          "serialization": "Index"
+        }
+      }
+    },
+    "CountryOfResidenceCredential": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/iden3vocab/main/schemas/json-ld/kyc.json-ld#CountryOfResidenceCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "kyc-vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/kyc.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "countryCode": {
+          "@id": "kyc-vocab:countryCode",
+          "@type": "xds:integer"
+        }
+      }
+    }
+  }]
+}

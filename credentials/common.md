@@ -80,3 +80,16 @@ version of the claim
 ```
  "version": 0
 ```
+# Index
+represents index type
+
+# Value
+represents value type
+
+# serialization
+
+defines value type
+
+```
+ "serialization": Index
+```
