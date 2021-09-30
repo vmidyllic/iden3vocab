@@ -32,7 +32,8 @@
         "age": {
            "@context":{
                  "index": {
-                     "@id": "http://purl.org/dc/terms/modified"
+                     "@id": "http://purl.org/dc/terms/modified",
+                     "@type":"@vocab"
                  }
            },
           "index": {
