@@ -31,9 +31,7 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "age": {
            "@context":{
-                "Index": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#index",
-                "Value": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#value",
-                "serialization": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#serialization"
+                "@vocab": "https://github.com/vmidyllic/iden3vocab/blob/main/credentials/common.md#"
            },
           "@id": "kyc-vocab:age",
           "@type": "xsd:integer"
